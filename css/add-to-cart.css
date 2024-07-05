@@ -1,0 +1,88 @@
+body{
+    background-color:#c8c8c8;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    transition: all .5s;
+}
+img{
+    width: 250px;
+    height: 250px;
+     background-color: white;
+  padding: 10px 30px;
+ margin-top: 25px;
+    margin-left: 500px;
+  border-radius: 5px;
+}
+/*--------------------------------------------------------------------------------------------------*/
+.w-inf fieldset{
+    width: 700px;
+    height: 180px;
+    border-radius: 10px;
+    margin-left: 300px;
+}
+.w-inf legend{
+    color:  white;
+   font-size: 20px;
+}
+.w-inf legend:hover{
+    color: #f0d43a;
+}
+.w-inf .info{
+    color: white;
+    margin-top: 7px;
+}
+/*----------------------------------------------------------------------------------------------------*/
+.b-inf fieldset{
+    width: 700px;
+    height: 280px;
+    margin-top: 10px;
+   
+    border-radius: 10px;
+    margin-left: 300px;
+}
+.b-inf legend{
+    color:  white;
+   font-size: 20px;
+}
+.b-inf legend:hover{
+    color: #f0d43a;
+}
+.buy{
+  padding: 5px 30px;
+  background-color: #3b4a6b;
+  color: #ffffff;
+  border-radius: 5px;
+  border: 1px solid #3b4a6b;
+    margin-left: 620px;
+    margin-top: 10px;
+}
+.buy:hover{
+     transform: translateY(-5px);
+}
+.input input{
+    margin-bottom: 10px;
+    margin-left: 10px;
+    display: block;
+    border: 1px solid white;
+    border-radius: 50px;
+    padding-right: 400px;
+    height: 25px;
+    text-align: center;
+}
+.back a{
+display: inline-block;
+    background-color: #3b4a6b;
+  padding: 5px 20px;
+      color: #ffffff;
+  border-radius: 5px;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  border: 1px solid #3b4a6b;
+    margin-left: 300px;
+    margin-top: 30px;
+    text-decoration: none;
+}
+.back a:hover{
+    transform: translateY(-5px);
+}

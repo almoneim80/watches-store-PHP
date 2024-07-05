@@ -1,0 +1,30 @@
+.table-style{                           /*style all table*/
+
+    margin-top: 50px;
+    margin-left: 10px;
+     background-color:  #3a4468;
+}
+/*------------------------------------------------------------------------------------------------------------*/
+
+
+.table-style .head-style .head-row-style .hrs{       /*style content of head*/
+ background-color:#f3c93e; 
+    text-align: center;
+    color: white;
+   width: 140px;
+    border-radius: 5px;
+
+}
+.table-style .head-style .head-row-style .hrs:hover{
+    color: #3a4468;
+}
+/*------------------------------------------------------------------------------------------------------------*/
+
+
+
+.table-style  .body-row-style{
+  background-color: #3a4468;
+    text-align: center;
+    color: white;
+  
+}

@@ -1,0 +1,100 @@
+body {
+    background-color: #c8c8c8;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    transition: all .5s;
+}
+
+.Orders {
+    background: #3a4468;
+    width: 500px;
+    height: 350px;
+    margin-left: 400px;
+    margin-top: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.Orders .class1 h5 {
+    color: white;
+    text-transform: uppercase;
+    font-size: 25px;
+    padding-bottom: 0;
+}
+
+.Orders .class1 h5:hover {
+    color: #f3c93e;
+}
+
+.Orders .class1 h2 {
+    color: white;
+    text-transform: uppercase;
+    font-size: 25px;
+    padding-top: 0;
+}
+
+.Orders .class1 h2:hover {
+    color: #f3c93e;
+}
+
+.Orders .class1 span {
+    color: #f3c93e;
+
+    text-transform: uppercase;
+    font-size: 15px;
+    padding-top: 0;
+}
+
+.Orders .class1 span:hover {
+    color: white;
+}
+/*-----------------------------------------------------------------------------------------------------------------------*/
+.table-style {
+    padding: 10px;
+}
+
+.table {
+    /*style all table*/
+    margin-top: 20px;
+    text-align: center;
+}
+
+/*------------------------------------------------------------------------------------------------------------*/
+.table-style .head-style .head-row-style .hrs {
+    /*style content of head*/
+    background-color: #f3c93e;
+    text-align: center;
+    color: white;
+    width: 100px;
+
+}
+.table-style .head-style .head-row-style .hrs:hover {
+    color: #3a4468;
+}
+
+/*------------------------------------------------------------------------------------------------------------*/
+.table-style .body-row-style {
+    background-color: #3a4468;
+    text-align: center;
+    color: white;
+
+}
+.back a {
+    display: inline-block;
+    background-color: #3b4a6b;
+    padding: 5px 20px;
+    color: #ffffff;
+    border-radius: 5px;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    border: 1px solid #3b4a6b;
+    margin-left: 600px;
+    margin-top: 30px;
+    text-decoration: none;
+}
+.back a:hover {
+    color: white;
+    transform: translateY(-5px);
+    text-decoration: none;
+}
